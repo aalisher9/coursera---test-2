@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITLIFE — Твоя фитнес-жизнь</title>
+    <style>
+        body {
+            background: #f5f5f5;
+            color: #000;
+            font-family: Arial, 'Times New Roman', sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff0000, #ff7300);
+            height: 120px;
+            width: 100%;
+            text-align: center;
+            line-height: 120px;
+            font-weight: bold;
+            font-size: 28px;
+            color: white;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background: #222;
+            color: white;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff7300;
+        }
+
+        aside {
+            background: #1baf5d;
+            float: left;
+            width: 25%;
+            min-height: 400px;
+            text-align: center;
+            color: white;
+            padding: 20px 10px;
+            box-sizing: border-box;
+        }
+
+        aside h3 {
+            margin-top: 0;
+        }
+
+        #content {
+            background: #333;
+            float: left;
+            width: 75%;
+            min-height: 400px;
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+
+        #content h2 {
+            margin-top: 0;
+            color: #ff7300;
+        }
+
+        #clear {
+            clear: both;
+        }
+
+        footer {
+            background: #000;
+            color: white;
+            height: 80px;
+            width: 100%;
+            text-align: center;
+            line-height: 80px;
+        }
+
+
+        @media (max-width: 768px) {
+            aside, #content {
+                float: none;
+                width: 100%;
+                min-height: auto;
+                padding: 20px;
+            }
+
+            header {
+                line-height: normal;
+                padding: 30px 0;
+                height: auto;
+            }
+
+            nav {
+                line-height: normal;
+                padding: 15px 0;
+                height: auto;
+            }
+
+            footer {
+                line-height: normal;
+                padding: 20px 0;
+                height: auto;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        FITLIFE — Твоя фитнес-жизнь
+    </header>
+
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Тренировки</a>
+        <a href="#">Питание</a>
+        <a href="#">Программы</a>
+        <a href="#">Контакты</a>
+    </nav>
+
+    <aside>
+        <h3>Советы по тренировкам</h3>
+        <p>✅ Разминка перед каждым занятием</p>
+        <p>💧 Пей достаточно воды</p>
+        <p>⏳ Отдыхай между подходами</p>
+        <p>🏋️ Следи за техникой</p>
+    </aside>
+
+    <div id="content">
+        <h2>Добро пожаловать в FITLIFE!</h2>
+        <p>Здесь ты найдёшь лучшие программы тренировок, советы по питанию и мотивацию для достижения своей идеальной формы 💪</p>
+        <p>🔥 Начни с малого — и достигни большего.</p>
+    </div>
+
+    <div id="clear"></div>
+
+    <footer>
+        © 2025 FITLIFE | Все права защищены
+    </footer>
+</body>
+</html>
